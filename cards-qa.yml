@@ -1,0 +1,21 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices_qa
+    username: root
+    password: SanSak@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+build:
+  version: "1.2"
+
+cards:
+  message: "Welcome to EazyBank cards related local APIs "
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
+  contact-details:
+    name: "John qa - Developer"
+    email: "john@eazybank.com"
