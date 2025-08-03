@@ -10,9 +10,9 @@ spring:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQL8Dialect
   datasource:
-    url: jdbc:mysql://localhost:3306/microservices_qa
+    url: jdbc:mysql://localhost:3306/microservices
     username: root
-    password: SanSak@123
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
 build:
   version: "1.1"
@@ -25,3 +25,4 @@ accounts:
   onCallSupport:
     - (555) 555-1234
     - (555) 523-1345
+
